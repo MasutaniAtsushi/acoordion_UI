@@ -1,0 +1,41 @@
+body {
+  background-color: #fff;
+  /* 背景画像は検討中 */
+  /* background-image: url(file:///Users/masutaniatsushi/Desktop/JS_accordion/paper-1468883_1920.jpg); */
+}
+
+h2{
+  margin-left: auto;
+  margin-right: auto;
+  width: 5.3em;
+  font-size: 3em;
+}
+
+h3{
+  margin: 0;
+  padding: 10px 0;
+  font-size: 1.5em;
+}
+
+.accordion{
+  width: 500px;
+  margin: 0 auto;
+}
+
+.accordion-trigger{
+  margin: 0;
+  padding: 10px;
+  display: block;
+  background:#505050;
+  color: #fff;
+  border-top: 1px solid #505050;
+}
+
+.accordion-contents{
+  margin: 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  display: none;
+  background:#ffffff;
+}
+
